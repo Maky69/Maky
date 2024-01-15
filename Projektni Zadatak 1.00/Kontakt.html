@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Autoservis Maky">
+    <meta name="keywords" content="servis, auti, mehaničar">
+    <meta name="author" content="Mihael Makaj">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Kontakt</title>
+
+    <style>
+        iframe {
+            width: 60%;
+            height: 600px;
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            align-items: center;
+            padding: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-color: black;
+            border-style: dashed;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Autoservis Maky</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Početna</a>
+        <a href="Vijesti.html">Vijesti</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="O Nama.html">O Nama</a>
+        <a href="Galerija.html">Galerija</a>
+    </nav>
+
+
+    <center><h1 style="color: white">Kontakt broj: 091 589 2371</h1></center>
+
+    <center><p style="font-size: larger;">Naš servis se nalazi u zagrebačkom naselju Kajzerica, odmah preko puta restorana Batak grill.<p></center>
+
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.4519847720535!2d15.954800996374296!3d45.782171937059566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6834748e879%3A0xf845c0485056bc9f!2sRemetine%C4%8Dka%20cesta%208%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1704893184846!5m2!1sen!2shr"
+    style="border-color: black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></center>
+
+    <form action="#" method="post">
+        <label for="ime">Ime:</label>
+        <input type="text" id="ime" name="ime" required>
+
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" name="prezime" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="kvar">Kvar:</label>
+        <textarea id="kvar" name="kvar" rows="8" cols="51">Specificirajte kvar koji vas muči...</textarea>
+
+        <center><button type="submit">Pošalji</button></center>
+        <center><p>Naši službenici će vas kontaktirati u roku od 24 sata.</p></center>
+    </form>
+
+    <footer>
+        <p>&copy; 2023 AutoServis Maky. Sva prava pridržana.</p>
+    </footer>
+
+</body>
+</html>

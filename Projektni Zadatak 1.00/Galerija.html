@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Autoservis Maky">
+    <meta name="keywords" content="servis, auti, mehaničar">
+    <meta name="author" content="Mihael Makaj">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Galerija</title>
+
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border-style: dashed;
+            border-color: black;
+            padding: 5px;
+        }
+        .gallery-item {
+            width: 35%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item:hover {
+            transform: scale(1.15);
+        }
+        .gallery-img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .gallery-caption {
+            padding: 10px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Autoservis Maky</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Početna</a>
+        <a href="Vijesti.html">Vijesti</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="O Nama.html">O Nama</a>
+        <a href="Galerija.html">Galerija</a>
+    </nav>
+
+    <center><h1 style="color:white">Galerija</h1></center>
+    
+    <div class="gallery">
+
+        <div class="gallery-item">
+            <a href="BMW E90.jpg" target="_blank">
+                <img class="gallery-img" src="BMW E90.jpg">
+                <figcaption class="gallery-caption">Mladenačka trojka za one kojima je 5-ica previše.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="E60.jpg" target="_blank">
+                <img class="gallery-img" src="E60.jpg">
+                <figcaption class="gallery-caption">Najpoznatiji model BMW 5-ice na našim prostorima.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Golf 7.jpg" target="_blank">
+                <img class="gallery-img" src="Golf 7.jpg">
+                <figcaption class="gallery-caption">Klasičan izbor. Nema puno mašte. Služi svrsi.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="W211.jpg" target="_blank">
+                <img class="gallery-img" src="W211.jpg">
+                <figcaption class="gallery-caption">Legendarna E-klasa. Osobito je vole taksisti.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="XE.jpg" target="_blank">
+                <img class="gallery-img" src="XE.jpg">
+                <figcaption class="gallery-caption">Za one malo odvažnije. Održavanje kao za BMW-a.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Alfa 159.jpg" target="_blank">
+                <img class="gallery-img" src="Alfa 159.jpg">
+                <figcaption class="gallery-caption">Tko nema za bolje a hoće brzo voziti kupi Alfu.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Alfa 147.jpg" target="_blank">
+                <img class="gallery-img" src="Alfa 147.jpg">
+                <figcaption class="gallery-caption">Ne preporučam. Rijetko kada je ispravna.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Audi A4.jpg" target="_blank">
+                <img class="gallery-img" src="Audi A4.jpg">
+                <figcaption class="gallery-caption"> Wagen ko wagen. Dobro izgleda.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Accord 2.4.jpg" target="_blank">
+                <img class="gallery-img" src="Accord 2.4.jpg">
+                <figcaption class="gallery-caption">Pouzdanija od svega ostalog. Preporučam.</figcaption>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="F30.jpg" target="_blank">
+                <img class="gallery-img" src="F30.jpg">
+                <figcaption class="gallery-caption">Novija trojka. Bolji izbor od modela E90.</figcaption>
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2023 AutoServis Maky. Sva prava pridržana.</p>
+    </footer>
+
+</body>
+</html>
